@@ -17,7 +17,7 @@ A surface-mount device (SMD) assembly machine continuously assembles various pro
 * [2. Dependency](#2-dependency)
 * [3. Training and Evaluation](#3-training-and-evaluation)
     + [Run train](#run-train)
-    + [Run eval](#run-eval)
+    + [Run test](#run-test)
 
 ## 1. Dataset
 

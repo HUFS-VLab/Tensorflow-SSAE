@@ -139,5 +139,5 @@ if __name__ == '__main__' :
                 label = 1 if i == 0 else 0
                 label_list += [label for i in range(len(loss_list))]
 
-            loss_boxplot(loss_dict, args.save_path, avg_loss, save_figure_path, weight=threshold_weight)
-            compare_loss(loss_dict, args.save_path, avg_loss, save_figure_path, weight=threshold_weight)
+            #loss_boxplot(loss_dict, args.save_path, avg_loss, save_figure_path, weight=threshold_weight)
+            #compare_loss(loss_dict, args.save_path, avg_loss, save_figure_path, weight=threshold_weight)

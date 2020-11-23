@@ -1,6 +1,6 @@
 ## SSAE: Anomaly Detection using unsupervised learning and multi-products learning in SMD Machine Sound
 
-[Anomaly Detection using unsupervised learning andmulti-products learning in SMD Machine Sound]
+[SSAE: Anomaly Detection using unsupervised learning andmulti-products learning in SMD Machine Sound]
 
 [Kihyun Nam](https://github.com/DevKiHyun)<sup>1*</sup>, YoungJong Song<sup>1*</sup>, IlDong Yun<sup>1,2</sup> 
 

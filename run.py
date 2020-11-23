@@ -13,7 +13,6 @@ import numpy as np
 import tensorflow as tf
 #tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
-from utils.metric import get_score
 from plot import save_loss, compare_loss, loss_boxplot
 from dataset_loader import DatasetLoader
 
@@ -44,7 +43,6 @@ if __name__ == '__main__' :
     parser.add_argument('--beta-2', type=float, default=0.999, help='-')
     parser.add_argument('--epsilon', type=float, default=1e-08, help='-')
     # Option
-    parser.add_argument('--n-fold', type=int, default=1, help='')
     parser.add_argument('--model-path', type=str, default='./model', help='-')
     parser.add_argument('--test', action='store_true', default=False, help='-')
     parser.add_argument('--threshold-weights', type=float, default='2.0', help='-')

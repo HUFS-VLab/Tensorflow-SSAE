@@ -14,6 +14,7 @@ A surface-mount device (SMD) assembly machine continuously assembles various pro
 ## Table of contents 
 * [1. Dataset](#1-dataset)
     + [SMD2020](#smd2020)
+    + [Setting](#setting)
 * [2. Dependency](#2-dependency)
 * [3. Training and Evaluation](#3-training-and-evaluation)
     + [Run train](#run-train)
@@ -29,6 +30,16 @@ Please keep in mind that it can only be used for academic purposes and not for c
 Corresponding Auth - IlDong Yun(yun@hufs.ac.kr) 
 ```
 
+#### Audio examples
+
+| Name | Normal 1 | Normal 2 | Error level 1 | Error level 2|
+| :---: | :-----: | :------: | :------------: | :-----------: |
+| GT-4118 | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/GT-4118/001.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/GT-4118/002.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/GT-4118-1/001.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/GT-4118-2/001.wav) |
+| ST-3214 | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3214/001.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3214/002.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3214-1/001.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3214-2/001.wav) |
+| ST-3708 | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3708/001.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3708/002.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3708-1/001.wav) | [wav](https://github.com/HUFS-VLab/Tensorflow-SSAE/blob/master/dataset/SMD_2020/ST-3708-2/001.wav) |
+
+
+### Setting
 We should follow the structure of the directory and manifests of the dataset as below:
 
 ```

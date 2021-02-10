@@ -24,10 +24,6 @@ A Surface-Mount Device assembly machine continuously assembles various products 
 
 ### SMD2020
 ```
-To download our SMD dataset(2020 version) used in this paper, please contact the corresponding author by email.
-Please keep in mind that it can only be used for academic purposes and not for commercial purposes.
-
-Corresponding Auth - IlDong Yun(yun@hufs.ac.kr) 
 ```
 
 #### Audio examples
